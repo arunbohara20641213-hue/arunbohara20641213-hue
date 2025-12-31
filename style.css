@@ -67,21 +67,7 @@ header nav a:hover {
     font-size: 4rem;
     font-weight: 700;
     margin-bottom: 16px;
-    position: relative;
 }
-
-/* Optional: Subtle typing effect (uncomment if you want it back) */
-/*
-.typing {
-    overflow: hidden;
-    border-right: 3px solid #fff;
-    white-space: nowrap;
-    width: 0;
-    animation: typing 3s steps(15) forwards, blink 0.8s infinite;
-}
-@keyframes typing { to { width: 5ch; } }
-@keyframes blink { 50% { border-color: transparent; } }
-*/
 
 .hero p {
     font-size: 1.4rem;
@@ -92,7 +78,7 @@ header nav a:hover {
 /* ===== SECTIONS ===== */
 section {
     padding: 100px 20px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -154,19 +140,35 @@ h2::after {
     background: #ffffff;
 }
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
 .project {
     background: white;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.4s ease;
-    margin-bottom: 30px;
     border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
 }
 
 .project:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
 }
 
 .project h3 {
@@ -178,10 +180,12 @@ h2::after {
 .project p {
     color: #636e72;
     margin-bottom: 20px;
+    flex-grow: 1;
 }
 
 .project a {
     display: inline-block;
+    align-self: flex-start;
     color: #4f46e5;
     font-weight: 600;
     text-decoration: none;
@@ -226,19 +230,20 @@ footer {
     font-size: 0.95rem;
 }
 
-/* ===== SMOOTH ENTRANCE ANIMATIONS ===== */
-.fade-in {
+/* ===== ANIMATIONS ===== */
+.fade-in, .slide-up {
     opacity: 0;
+}
+
+.fade-in {
     animation: fadeIn 1.2s ease forwards;
 }
 
 .slide-up {
-    opacity: 0;
     transform: translateY(40px);
     animation: slideUp 1s ease forwards;
 }
 
-/* Stagger animations for sections */
 #about { animation-delay: 0.2s; }
 #skills { animation-delay: 0.4s; }
 #projects { animation-delay: 0.6s; }
@@ -282,6 +287,10 @@ footer {
     
     h2 {
         font-size: 2.2rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
     }
     
     .skills-list {
