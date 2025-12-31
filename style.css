@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* NEW: Animated full-page background */
+/* Animated full-page background */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.7;
@@ -28,10 +28,10 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-/* Light overlay content background for better readability */
+/* Light overlay for better readability */
 section, header, footer {
-    background: rgba(248, 249, 250, 0.92); /* Slight transparent white */
-    backdrop-filter: blur(8px); /* Optional frosted glass effect – remove if you don't like it */
+    background: rgba(248, 249, 250, 0.92);
+    backdrop-filter: blur(8px);
 }
 
 /* ===== NAVIGATION ===== */
@@ -69,14 +69,14 @@ header nav a:hover {
     color: white;
     position: relative;
     overflow: hidden;
-    background: none; /* Remove old gradient – body handles it now */
+    background: none;
 }
 
 .hero::before {
     content: '';
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.2); /* Darker overlay for better text readability */
+    background: rgba(0, 0, 0, 0.2);
     pointer-events: none;
     z-index: 1;
 }
@@ -163,7 +163,7 @@ h2::after {
 
 /* ===== PROJECTS ===== */
 .projects {
-    background: none; /* Transparent to show body background */
+    background: none;
 }
 
 .projects-grid {
@@ -189,10 +189,133 @@ h2::after {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
-/* ... (rest of your project styles remain the same) ... */
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
 
-/* ===== CONTACT & FOOTER ===== */
-/* (unchanged – keep your existing ones) */
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: #1e293b;
+}
 
-/* ===== ANIMATIONS & RESPONSIVE ===== */
-/* (keep your existing fade-in, slide-up, and responsive rules) */
+.project p {
+    color: #636e72;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.project a {
+    display: inline-block;
+    align-self: flex-start;
+    color: #4f46e5;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.project a:hover {
+    color: #7c3aed;
+    border-bottom: 2px solid #7c3aed;
+}
+
+/* ===== CONTACT ===== */
+.contact {
+    text-align: center;
+    background: #f1f5f9;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin: 16px 0;
+}
+
+.contact a {
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #7c3aed;
+    text-decoration: underline;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1e293b;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+}
+
+/* ===== ANIMATIONS (fade-in, slide-up) ===== */
+/* (Keep your existing ones here if you have them) */
+
+/* ===== FLOATING CODE SNIPPETS BACKGROUND ===== */
+.code-particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.code-particles span {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.12); /* Very subtle */
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    white-space: nowrap;
+    animation: floatUp linear infinite;
+    left: calc(100vw * var(--left));
+    animation-duration: calc(15s + var(--delay) * 2s);
+    animation-delay: calc(-1s * var(--delay) * 2s);
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.15;
+    }
+    90% {
+        opacity: 0.15;
+    }
+    100% {
+        transform: translateY(-100px) rotate(10deg);
+        opacity: 0;
+    }
+}
+
+/* Individual snippet positions & timings */
+.code-particles span:nth-child(1) { --left: 0.05; --delay: 1; }
+.code-particles span:nth-child(2) { --left: 0.15; --delay: 4; }
+.code-particles span:nth-child(3) { --left: 0.25; --delay: 9; }
+.code-particles span:nth-child(4) { --left: 0.35; --delay: 2; }
+.code-particles span:nth-child(5) { --left: 0.45; --delay: 7; }
+.code-particles span:nth-child(6) { --left: 0.55; --delay: 12; }
+.code-particles span:nth-child(7) { --left: 0.65; --delay: 3; }
+.code-particles span:nth-child(8) { --left: 0.75; --delay: 8; }
+.code-particles span:nth-child(9) { --left: 0.85; --delay: 5; }
+.code-particles span:nth-child(10) { --left: 0.95; --delay: 10; }
+.code-particles span:nth-child(11) { --left: 0.1; --delay: 6; }
+.code-particles span:nth-child(12) { --left: 0.3; --delay: 11; }
+.code-particles span:nth-child(13) { --left: 0.5; --delay: 0; }
+.code-particles span:nth-child(14) { --left: 0.7; --delay: 13; }
+.code-particles span:nth-child(15) { --left: 0.9; --delay: 14; }
+
+/* ===== RESPONSIVE ===== */
+/* (Add your existing responsive rules here) */
