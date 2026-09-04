@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Arun</h1>
+<h1 align="center">Hi, I'm Arun</h1>
 
 <h3 align="center">
-  CSE Student • Software Developer • Builder
+  CSE Student | Software Developer | Builder
 </h3>
 
 <p align="center">
@@ -16,16 +16,21 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Computer Science student** who enjoys building things, experimenting with different technologies, and figuring out how things work.
+I'm a Computer Science student interested in software development,
+systems, computer vision, AI, and building practical projects.
 
-- 🔭 Currently working on **[SimNeutron](https://github.com/arunbohara20641213-hue/simneutron)**
-- 🌱 Currently learning **C++, Java, Python & Data Structures**
-- 🎮 Interested in **Minecraft development**
-- 👁️ Exploring **Computer Vision & OpenCV**
-- ⚙️ I prefer **efficient solutions over unnecessarily complicated ones**
-- 💻 I like building projects to learn rather than just following tutorials
+* Currently working on **SimNeutron**
+* Currently learning **C++, Java, Python & Data Structures**
+* Exploring **full-stack development and AI**
+* Interested in **computer vision and software engineering**
+* I enjoy understanding how things work and building my own solutions
+* I strive for **efficiency rather than unnecessary complexity**
 
-<br>
+<p align="center">
+  <a href="https://arunbohara20641213-hue.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-181717?style=for-the-badge&logo=github"/>
+  </a>
+</p>
 
 ---
 
@@ -37,30 +42,38 @@ I'm a **Computer Science student** who enjoys building things, experimenting wit
   <img src="https://skillicons.dev/icons?i=c,cpp,java,python,js,html,css" />
 </p>
 
-### Tools & Technologies
+### Frameworks & Technologies
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,cmake,docker,mongodb,mysql,opencv" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,opencv,cmake,docker,sqlite" />
 </p>
 
-<br>
+### Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode" />
+</p>
 
 ---
 
-# 🚀 Featured Projects
+## 🚀 Featured Projects
 
 <table>
 <tr>
 
 <td width="50%">
 
-### 🌌 SimNeutron
+### Voice Assistant
 
-A neutron star simulation project focused on physics, numerical computation and visualization.
+A full-stack voice assistant with offline and cloud runtime
+profiles, speech-to-text, LLM integration, text-to-speech,
+session memory, and a React interface.
 
-**Tech:** `C++` `CMake` `GLM` `OpenMP`
+**Stack:** Python · FastAPI · React · SQLite · Docker
 
-<a href="https://github.com/arunbohara20641213-hue/simneutron">
+<br>
+
+<a href="https://github.com/arunbohara20641213-hue/voice-assistant">
   <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github"/>
 </a>
 
@@ -68,13 +81,16 @@ A neutron star simulation project focused on physics, numerical computation and 
 
 <td width="50%">
 
-### 🎮 Meteor Client
+### SimNeutron
 
-Minecraft utility/modification project exploring Java development and game internals.
+A neutron star simulation project focused on physics,
+numerical computation, visualization, and performance.
 
-**Tech:** `Java` `Minecraft` `Fabric`
+**Stack:** C++ · CMake · GLM · OpenMP
 
-<a href="https://github.com/arunbohara20641213-hue/meteor-client">
+<br>
+
+<a href="https://github.com/arunbohara20641213-hue/simneutron">
   <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github"/>
 </a>
 
@@ -86,11 +102,14 @@ Minecraft utility/modification project exploring Java development and game inter
 
 <td width="50%">
 
-### 👁️ Face Detection
+### Face Detection
 
-Computer vision project using Python and OpenCV.
+A computer vision project using Python and OpenCV
+for face detection and image processing.
 
-**Tech:** `Python` `OpenCV`
+**Stack:** Python · OpenCV
+
+<br>
 
 <a href="https://github.com/arunbohara20641213-hue/facedect-py">
   <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github"/>
@@ -100,11 +119,14 @@ Computer vision project using Python and OpenCV.
 
 <td width="50%">
 
-### 🏥 Hospital Record System
+### Hospital Record System
 
-A simple record management project built while learning web development.
+A web-based record management project designed
+to manage and organize hospital information.
 
-**Tech:** `JavaScript`
+**Stack:** JavaScript · HTML · CSS
+
+<br>
 
 <a href="https://github.com/arunbohara20641213-hue/hospital-record-system">
   <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github"/>
@@ -115,65 +137,85 @@ A simple record management project built while learning web development.
 </tr>
 </table>
 
-<br>
-
 ---
 
-# 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em"
-       src="https://github-readme-stats.vercel.app/api?username=arunbohara20641213-hue&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&theme=github_dark"
-       alt="Arun's GitHub Stats"/>
-       
-  <img height="180em"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunbohara20641213-hue&layout=compact&hide_border=true&langs_count=8&theme=github_dark"
-       alt="Arun's Top Languages"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=arunbohara20641213-hue&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent"
+    height="180"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=arunbohara20641213-hue&layout=compact&hide_border=true&theme=transparent"
+    height="180"
+  />
 </p>
-
-<br>
 
 ---
 
-# 🔥 Contribution Streak
+## 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=arunbohara20641213-hue&theme=github-dark-blue&hide_border=true"
-       alt="GitHub Contribution Streak"/>
+  <img
+    src="https://streak-stats.demolab.com?user=arunbohara20641213-hue&hide_border=true&theme=transparent"
+    alt="GitHub Streak"
+  />
 </p>
-
-<br>
 
 ---
 
-# 📈 Contribution Activity
+## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=arunbohara20641213-hue&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ffffff&area=true&hide_border=true"
-       alt="GitHub Activity Graph"/>
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=arunbohara20641213-hue&hide_border=true&area=true&custom_title=GitHub%20Contribution%20Graph"
+    alt="GitHub Contribution Graph"
+  />
 </p>
-
-<br>
 
 ---
 
-# 📌 GitHub Overview
-
-<p align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arunbohara20641213-hue&theme=github_dark" />
-
-</p>
-
-<br>
-
----
-
-## 🧠 Currently Learning
+## 🎯 Current Focus
 
 ```text
-C++          ███████████████░░░
-Java         ████████████░░░░░░
-Python       ████████████░░░░░░
-DSA          ████████░░░░░░░░░░
-Web Dev      ███████░░░░░░░░░░░
+C++              ███████████████░░░░░  Learning
+Python           ████████████████░░░░  Building
+Java             ██████████████░░░░░░  Learning
+Data Structures  ████████████░░░░░░░░  Improving
+AI / ML          ██████████░░░░░░░░░░  Exploring
+Full Stack       ███████████░░░░░░░░░  Building
+```
+
+---
+
+## 🌱 What I'm Working Toward
+
+* Building larger and more complete software projects
+* Improving my C++ and problem-solving skills
+* Learning more about AI and machine learning
+* Developing stronger full-stack applications
+* Contributing to open-source projects
+* Building projects that are actually useful
+
+---
+
+## 🤝 Connect With Me
+
+<p align="left">
+  <a href="https://github.com/arunbohara20641213-hue">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/arun-bohara/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:arunbohara20641213@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>Build things. Break things. Learn how they work.</i>
+</p>
